@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63042A21F668FAB0072C697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63042A11F668FAB0072C697 /* AppDelegate.swift */; };
+		F63042A41F668FAB0072C697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63042A31F668FAB0072C697 /* ViewController.swift */; };
+		F63042A71F668FAB0072C697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63042A51F668FAB0072C697 /* Main.storyboard */; };
+		F63042AA1F668FAB0072C697 /* Techmon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F63042A81F668FAB0072C697 /* Techmon.xcdatamodeld */; };
+		F63042AC1F668FAB0072C697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F63042AB1F668FAB0072C697 /* Assets.xcassets */; };
+		F63042AF1F668FAB0072C697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F63042AD1F668FAB0072C697 /* LaunchScreen.storyboard */; };
+		F63042BA1F668FAB0072C697 /* TechmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63042B91F668FAB0072C697 /* TechmonTests.swift */; };
+		F63042C51F668FAC0072C697 /* TechmonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63042C41F668FAC0072C697 /* TechmonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63042B61F668FAB0072C697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63042961F668FAB0072C697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F630429D1F668FAB0072C697;
+			remoteInfo = Techmon;
+		};
+		F63042C11F668FAC0072C697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F63042961F668FAB0072C697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F630429D1F668FAB0072C697;
+			remoteInfo = Techmon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F630429E1F668FAB0072C697 /* Techmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63042A11F668FAB0072C697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F63042A31F668FAB0072C697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F63042A61F668FAB0072C697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F63042A91F668FAB0072C697 /* Techmon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Techmon.xcdatamodel; sourceTree = "<group>"; };
+		F63042AB1F668FAB0072C697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F63042AE1F668FAB0072C697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F63042B01F668FAB0072C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63042B51F668FAB0072C697 /* TechmonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechmonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63042B91F668FAB0072C697 /* TechmonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechmonTests.swift; sourceTree = "<group>"; };
+		F63042BB1F668FAB0072C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F63042C01F668FAC0072C697 /* TechmonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechmonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63042C41F668FAC0072C697 /* TechmonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechmonUITests.swift; sourceTree = "<group>"; };
+		F63042C61F668FAC0072C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F630429B1F668FAB0072C697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042B21F668FAB0072C697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042BD1F668FAC0072C697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F63042951F668FAB0072C697 = {
+			isa = PBXGroup;
+			children = (
+				F63042A01F668FAB0072C697 /* Techmon */,
+				F63042B81F668FAB0072C697 /* TechmonTests */,
+				F63042C31F668FAC0072C697 /* TechmonUITests */,
+				F630429F1F668FAB0072C697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F630429F1F668FAB0072C697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F630429E1F668FAB0072C697 /* Techmon.app */,
+				F63042B51F668FAB0072C697 /* TechmonTests.xctest */,
+				F63042C01F668FAC0072C697 /* TechmonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F63042A01F668FAB0072C697 /* Techmon */ = {
+			isa = PBXGroup;
+			children = (
+				F63042A11F668FAB0072C697 /* AppDelegate.swift */,
+				F63042A31F668FAB0072C697 /* ViewController.swift */,
+				F63042A51F668FAB0072C697 /* Main.storyboard */,
+				F63042AB1F668FAB0072C697 /* Assets.xcassets */,
+				F63042AD1F668FAB0072C697 /* LaunchScreen.storyboard */,
+				F63042B01F668FAB0072C697 /* Info.plist */,
+				F63042A81F668FAB0072C697 /* Techmon.xcdatamodeld */,
+			);
+			path = Techmon;
+			sourceTree = "<group>";
+		};
+		F63042B81F668FAB0072C697 /* TechmonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F63042B91F668FAB0072C697 /* TechmonTests.swift */,
+				F63042BB1F668FAB0072C697 /* Info.plist */,
+			);
+			path = TechmonTests;
+			sourceTree = "<group>";
+		};
+		F63042C31F668FAC0072C697 /* TechmonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F63042C41F668FAC0072C697 /* TechmonUITests.swift */,
+				F63042C61F668FAC0072C697 /* Info.plist */,
+			);
+			path = TechmonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F630429D1F668FAB0072C697 /* Techmon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63042C91F668FAC0072C697 /* Build configuration list for PBXNativeTarget "Techmon" */;
+			buildPhases = (
+				F630429A1F668FAB0072C697 /* Sources */,
+				F630429B1F668FAB0072C697 /* Frameworks */,
+				F630429C1F668FAB0072C697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techmon;
+			productName = Techmon;
+			productReference = F630429E1F668FAB0072C697 /* Techmon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F63042B41F668FAB0072C697 /* TechmonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63042CC1F668FAC0072C697 /* Build configuration list for PBXNativeTarget "TechmonTests" */;
+			buildPhases = (
+				F63042B11F668FAB0072C697 /* Sources */,
+				F63042B21F668FAB0072C697 /* Frameworks */,
+				F63042B31F668FAB0072C697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63042B71F668FAB0072C697 /* PBXTargetDependency */,
+			);
+			name = TechmonTests;
+			productName = TechmonTests;
+			productReference = F63042B51F668FAB0072C697 /* TechmonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F63042BF1F668FAC0072C697 /* TechmonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63042CF1F668FAC0072C697 /* Build configuration list for PBXNativeTarget "TechmonUITests" */;
+			buildPhases = (
+				F63042BC1F668FAC0072C697 /* Sources */,
+				F63042BD1F668FAC0072C697 /* Frameworks */,
+				F63042BE1F668FAC0072C697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F63042C21F668FAC0072C697 /* PBXTargetDependency */,
+			);
+			name = TechmonUITests;
+			productName = TechmonUITests;
+			productReference = F63042C01F668FAC0072C697 /* TechmonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F63042961F668FAB0072C697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Junya Kobayashi";
+				TargetAttributes = {
+					F630429D1F668FAB0072C697 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F63042B41F668FAB0072C697 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F630429D1F668FAB0072C697;
+					};
+					F63042BF1F668FAC0072C697 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F630429D1F668FAB0072C697;
+					};
+				};
+			};
+			buildConfigurationList = F63042991F668FAB0072C697 /* Build configuration list for PBXProject "Techmon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F63042951F668FAB0072C697;
+			productRefGroup = F630429F1F668FAB0072C697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F630429D1F668FAB0072C697 /* Techmon */,
+				F63042B41F668FAB0072C697 /* TechmonTests */,
+				F63042BF1F668FAC0072C697 /* TechmonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F630429C1F668FAB0072C697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63042AF1F668FAB0072C697 /* LaunchScreen.storyboard in Resources */,
+				F63042AC1F668FAB0072C697 /* Assets.xcassets in Resources */,
+				F63042A71F668FAB0072C697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042B31F668FAB0072C697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042BE1F668FAC0072C697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F630429A1F668FAB0072C697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63042AA1F668FAB0072C697 /* Techmon.xcdatamodeld in Sources */,
+				F63042A41F668FAB0072C697 /* ViewController.swift in Sources */,
+				F63042A21F668FAB0072C697 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042B11F668FAB0072C697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63042BA1F668FAB0072C697 /* TechmonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63042BC1F668FAC0072C697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63042C51F668FAC0072C697 /* TechmonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F63042B71F668FAB0072C697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F630429D1F668FAB0072C697 /* Techmon */;
+			targetProxy = F63042B61F668FAB0072C697 /* PBXContainerItemProxy */;
+		};
+		F63042C21F668FAC0072C697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F630429D1F668FAB0072C697 /* Techmon */;
+			targetProxy = F63042C11F668FAC0072C697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F63042A51F668FAB0072C697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63042A61F668FAB0072C697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F63042AD1F668FAB0072C697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F63042AE1F668FAB0072C697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F63042C71F668FAC0072C697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F63042C81F668FAC0072C697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F63042CA1F668FAC0072C697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techmon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Techmon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F63042CB1F668FAC0072C697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techmon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Techmon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F63042CD1F668FAC0072C697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechmonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechmonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techmon.app/Techmon";
+			};
+			name = Debug;
+		};
+		F63042CE1F668FAC0072C697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechmonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechmonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techmon.app/Techmon";
+			};
+			name = Release;
+		};
+		F63042D01F668FAC0072C697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TechmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechmonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Techmon;
+			};
+			name = Debug;
+		};
+		F63042D11F668FAC0072C697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TechmonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechmonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Techmon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F63042991F668FAB0072C697 /* Build configuration list for PBXProject "Techmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63042C71F668FAC0072C697 /* Debug */,
+				F63042C81F668FAC0072C697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63042C91F668FAC0072C697 /* Build configuration list for PBXNativeTarget "Techmon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63042CA1F668FAC0072C697 /* Debug */,
+				F63042CB1F668FAC0072C697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F63042CC1F668FAC0072C697 /* Build configuration list for PBXNativeTarget "TechmonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63042CD1F668FAC0072C697 /* Debug */,
+				F63042CE1F668FAC0072C697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F63042CF1F668FAC0072C697 /* Build configuration list for PBXNativeTarget "TechmonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63042D01F668FAC0072C697 /* Debug */,
+				F63042D11F668FAC0072C697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F63042A81F668FAB0072C697 /* Techmon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F63042A91F668FAB0072C697 /* Techmon.xcdatamodel */,
+			);
+			currentVersion = F63042A91F668FAB0072C697 /* Techmon.xcdatamodel */;
+			path = Techmon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F63042961F668FAB0072C697 /* Project object */;
+}
